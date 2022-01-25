@@ -1,0 +1,111 @@
+.container-drag{
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    white-space: nowrap;
+    align-items: center;
+    margin: 10px 0;
+    overflow: scroll;
+    background-color: rgb(243, 202, 148);
+    box-shadow: inset 2px 2px 4px brown, inset -2px -2px 4px brown;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.container-drag::-webkit-scrollbar {
+    display: none;
+}
+  
+.container-drag {
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+
+.alpha-btn{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    color: black;
+    margin-right: 10px;
+    border: 1px solid #be1691;
+    font-size: 48px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.operator-drag{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(245, 234, 84);
+    box-shadow: inset 4px 4px 8px orange, inset -4px -4px 8px orange;
+}
+
+.operator-field{
+    width: 14%;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    margin-right: 280px;
+    margin-left: 20px;
+}
+
+.op-btn{
+    width: 70px;
+    height: 70px;
+    background-color: orange;
+    color: white;
+    border: 1px solid rgb(255, 115, 0);
+    margin-right: 10px;
+    font-size: 36px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.int-btn{
+    width: 140px;
+    height: 70px;
+    background-color: chartreuse;
+    border: 1px solid green;
+    font-size: 42px ;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    margin-right: 10px;
+}
+
+.result-area{
+    width: 90%;
+    height: 280px;
+    padding: 20px;
+    background-color: rgb(98, 196, 235);
+    margin: 10px auto;
+    border-radius: 4px;
+    box-shadow: inset 5px 5px 8px rgba(5, 77, 233, 0.8), inset -5px -5px 8px rgba(5, 77, 233, 0.8);
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.result-area::-webkit-scrollbar {
+    display: none;
+}
+
+.submit-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.submit{
+    width: 150px;
+    height: 60px;
+    font-size: 28px;
+    background-color: rgb(9, 209, 9);
+    border: 1px solid darkgreen;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+p{
+    margin-left: 25px;
+    font-size: 22px;
+}
